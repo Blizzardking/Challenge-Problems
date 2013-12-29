@@ -1,3 +1,7 @@
+#Input: array A
+#Output: max sum of non-empty subarray
+#Goal: O(n) time
+
 import random
 def randomList(size,low=10,high=100):
     return map(lambda _:random.randint(low,high),xrange(size))

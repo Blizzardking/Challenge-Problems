@@ -1,3 +1,7 @@
+#Input: Array A of elemnts with values ranging from [1...n]
+#Output: longest interval in array A
+#Goal: Liner time
+
 import random
 def randomList(size,low=10,high=100):
     return map(lambda _:random.randint(low,high),xrange(size))
@@ -23,6 +27,7 @@ def getLargestInterval(li):
                 inteval = ma - mi
     return mi, ma
 
+#Test
 testList = randomList(10, 1, 10)
 print(testList)
 print(getLargestInterval(testList))

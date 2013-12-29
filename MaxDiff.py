@@ -1,6 +1,6 @@
 #Maximum Difference between SubArrays from an Array
-#Input : A[1.n]
-#Output : Max Difference between .A[ij] and .A[kl](assume j < k here)
+#Input : A[1...n]
+#Output : Max Difference between A[i...j] and .A[k...l](assume j < k here)
 #Complexity : O(n)
 
 #pseudocode
